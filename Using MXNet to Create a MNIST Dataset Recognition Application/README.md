@@ -8,13 +8,13 @@
 1. **准备数据**：下载数据集，解压后上传至OBS桶中。
 2. **训练模型**：使用MXNet原生接口编写模型训练脚本，新建训练作业进行模型训练。
 3. **部署模型**：得到训练好的模型文件后，新建预测作业将模型部署为在线预测服务。
-4. **发起预测请求**：下载并导入客户端工程，发起预测请求获取预测结果。
+4. **发起预测请求**：发起预测请求获取预测结果。
 
 
 ### 1. 准备数据
 通过ModelArts市场预置数据集创建自动学习所需数据集版本，具体操作如下：
 
-**步骤 1**  &#160; &#160; 登录“[ModelArts](https://console.huaweicloud.com/modelarts/?region=cn-north-1#/manage/dashboard)”管理控制台，在“全局配置”界面添加访问秘钥。如图:
+**步骤 1**  &#160; &#160; 登录“[ModelArts](https://console.huaweicloud.com/modelarts/?region=cn-north-1#/manage/dashboard)”管理控制台，在“全局配置”界面添加访问密钥。如图:
 
 <img src="images/添加aksk.png" width="800px" />
 
